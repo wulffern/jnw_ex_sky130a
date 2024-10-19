@@ -1,0 +1,14 @@
+library: JNW_EX_SKY130A
+cell: JNW_EX
+author: Anonymous
+tagline: The answer is 42
+email: anon@anon.com
+url: anon.com
+doc:
+  # Make docs
+  #libraries:
+  #   <library>:
+  #       - <cell>
+  #       - <cell>
+sim:
+  # <simdir>: command
