@@ -1,4 +1,4 @@
-description: TB_NCM
+description: Current mirror
 simulations:
    tran:
     name: Transient analysis
@@ -13,4 +13,13 @@ simulations:
         method: minmax
       - name: Sch_3std
         src: results/tran_Sch_mc
+        method: 3std
+      - name: Lay_typ
+        src: results/tran_Lay_typical
+        method: typical
+      - name: Lay_etc
+        src: results/tran_Lay_etc
+        method: minmax
+      - name: Lay_3std
+        src: results/tran_Lay_mc
         method: 3std

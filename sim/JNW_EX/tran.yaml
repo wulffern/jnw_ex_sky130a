@@ -1,10 +1,21 @@
-#<name>:
-#  src:
-#    - <paramters>
-#  typ: <typical spec value>
-#  name: <long name>
-#  min: <minimum spec value>
-#  max: <maximum spec value>
-#  scale: <scale, multiply result by scale>
-#  digits: <significant digits>
-#  unit: Unit
+ibn:
+  src:
+    - ibns_20u
+  name: Output current
+  min: -20%
+  typ: 20
+  max: 20%
+  scale: 1e6
+  digits: 3
+  unit: uA
+
+vgs:
+  src:
+    - vgs_m1
+  name: Gate-Source voltage
+  typ: 0.6
+  min: 0.3
+  max: 0.7
+  scale: 1
+  digits: 3
+  unit: V
