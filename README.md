@@ -6,13 +6,15 @@
 [![SIM](../../actions/workflows/sim.yaml/badge.svg)](../../actions/workflows/sim.yaml)
 
 # Who
-wulff
+Carsten Wulff
 
 # Why
- <explain why you made this module>
+
+Skywater 130 nm Tutorial
 
 # How
- <explain short how you made this module>
+
+Make stuff
 
 
 # What

@@ -1,6 +1,7 @@
 library: JNW_EX_SKY130A
 cell: JNW_EX
 author: Carsten Wulff
+github: wulffern
 tagline: Skywater 130 nm tutorial
 email: carsten@wulff.no
 url: analogicus.com
@@ -9,3 +10,4 @@ doc:
     JNW_EX_SKY130A:
       - JNW_EX
 sim:
+  JNW_EX: make typical
