@@ -9,3 +9,4 @@ doc:
     JNW_EX_SKY130A:
       - JNW_EX
 sim:
+  JNW_EX: make typical

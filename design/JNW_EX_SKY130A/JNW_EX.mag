@@ -1,0 +1,65 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1729336981
+<< locali >>
+rect -96 -100 96 152
+rect 1056 -100 1248 196
+rect -200 -108 1300 -100
+rect -200 -291 293 -108
+rect 476 -291 1300 -108
+rect -200 -300 1300 -291
+<< viali >>
+rect 293 -291 476 -108
+<< metal1 >>
+rect 1000 3896 1100 4000
+rect 672 3704 1100 3896
+rect 160 2232 224 3432
+rect 160 668 224 2168
+rect 287 -108 482 3598
+rect 1000 3096 1100 3704
+rect 672 2904 1100 3096
+rect 768 2162 832 2167
+rect 1000 1496 1100 2904
+rect 672 1304 1100 1496
+rect 1000 760 1100 1304
+rect 672 568 1100 760
+rect 1000 0 1100 568
+rect 287 -291 293 -108
+rect 476 -291 482 -108
+rect 287 -303 482 -291
+<< via1 >>
+rect 160 2168 224 2232
+rect 768 2168 832 2232
+<< metal2 >>
+rect 154 2168 160 2232
+rect 224 2168 768 2232
+rect 832 2168 838 2232
+use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_0 JNW_ATR_SKY130A
+timestamp 1723932000
+transform 1 0 0 0 1 3199
+box -184 -128 1336 928
+use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_1
+timestamp 1723932000
+transform 1 0 0 0 1 1599
+box -184 -128 1336 928
+use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_2
+timestamp 1723932000
+transform 1 0 0 0 1 800
+box -184 -128 1336 928
+use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_3
+timestamp 1723932000
+transform 1 0 0 0 1 0
+box -184 -128 1336 928
+use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_4
+timestamp 1723932000
+transform 1 0 0 0 1 2399
+box -184 -128 1336 928
+<< labels >>
+flabel metal1 672 3704 1100 3896 0 FreeSans 1600 0 0 0 IBNS_20U
+port 0 nsew
+flabel metal2 224 2168 768 2232 0 FreeSans 1600 0 0 0 IBPS_5U
+port 1 nsew
+flabel locali -200 -300 1300 -100 0 FreeSans 1600 0 0 0 VSS
+port 2 nsew
+<< end >>
