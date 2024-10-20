@@ -4,7 +4,7 @@ cpdk:
   revision: main
 
 #- Technology library
-tech_sky130a:
+tech_sky130A:
   remote: git@github.com:wulffern/tech_sky130A.git
   revision: main
 
